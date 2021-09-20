@@ -19,7 +19,7 @@ jobs:
           node-version: 14.x
       - name: npm install 
         run: |
-          npm install s3521/kele
+          npm install  git+https://isaacs@github.com/npm/npm.git
           npm install cron
           npm install request
           curl ipinfo.io/json
