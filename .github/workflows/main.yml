@@ -17,9 +17,9 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 14.x
-      - name: npm install 
+      - name: npm install
         run: |
-          npm install 
+          npm install
           npm install cron
           npm install request
           curl ipinfo.io/json
