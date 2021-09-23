@@ -16,8 +16,8 @@ const $ = Env(jobname)
 
 async function all() {
     //nodejs运行
-    await dailysign421();
-    await $.wait(1000);
+    //await dailysign421();
+    //await $.wait(1000);
     for(let i=0;i<10;i++)
     {
         await vedioreward421();
@@ -39,23 +39,23 @@ async function all() {
     }
     //await drawreward();
     //await $.wait(1000);
-    await read449();
-    await $.wait(1000);
+    //await read449();
+    //await $.wait(1000);
     //await share();
     await $.wait(1000);
-    await receive();
-    await $.wait(1000);
-    await jsdailysign();
+    //await receive();
+    //await $.wait(1000);
+    //await jsdailysign();
     await $.wait(1000);
     //await jsvedioreward20();
     await $.wait(1000);
     //await  jsvedioreward10();
     //await $.wait(1000);
-    await  jsshucheng();
+    //await  jsshucheng();
+    //await $.wait(1000);
+    //await jsshare();
     await $.wait(1000);
-    await jsshare();
-    await $.wait(1000);
-    await jsread()
+    //await jsread()
     await $.wait(1000);
     for(let i=0;i<10;i++)
     {
