@@ -114,7 +114,7 @@ async function myInfo(){
  return new Promise((resolve) => {
  let plant6_url = {
        url: `http://apponlie.sahaj.cn/user/myInfo`,
-        headers: JSON.parse(jszhdArr[i]),
+        headers: JSON.parse(jszhd),
         //body: `{"channel_id":188}`,
 
     }
